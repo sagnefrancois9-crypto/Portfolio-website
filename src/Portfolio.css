@@ -1,0 +1,42 @@
+/* Body background */
+body {
+    background-image: url("../RessourcesMedia/background/eastman-childs-CEtIM994vaI-unsplash.jpg");
+    color: white;
+    display: flex;
+    flex-direction:column ;
+    
+}
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+
+    border-bottom: 2px solid gray;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1px;
+
+    background-image: url("../RessourcesMedia/background/eastman-childs-CEtIM994vaI-unsplash.jpg");
+
+
+
+
+    
+}
+nav {
+    display: flex;
+    gap:120px;
+    padding-right: 20px;
+}
+/* main */
+
+main{
+    margin-top: 80px;
+}
