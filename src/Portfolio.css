@@ -1,9 +1,11 @@
 /* Body background */
 body {
-    background-image: url("../RessourcesMedia/background/eastman-childs-CEtIM994vaI-unsplash.jpg");
+    background-color: #0d0d0f;
     color: white;
     display: flex;
     flex-direction:column ;
+    font-family: inherit;
+
     
 }
 /* header */
@@ -15,7 +17,7 @@ header{
     width: 100%;
     height: 50px;
 
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.325);
    
     display: flex;
     flex-direction: row;
@@ -23,20 +25,85 @@ header{
     justify-content: space-between;
     padding-bottom: 1px;
 
-    background-image: url("../RessourcesMedia/background/eastman-childs-CEtIM994vaI-unsplash.jpg");
+    background-color: #0d0d0f;
 
 
 
 
     
 }
+header p{
+    margin-left: 50px;
+    color: #4ade80;
+    font-family: "JetBrains Mono",monospace ;
+}
+
 nav {
     display: flex;
-    gap:120px;
+    gap:0px;
     padding-right: 20px;
+
 }
+nav a,a:visited,a:hover,a:active{
+    color:inherit;
+    text-decoration: none;
+}
+nav a:link {
+    padding: 16px 27px;
+    color: rgba(255, 255, 255, 0.583);
+
+}
+nav a:hover {
+    color:white;
+
+}
+
+
 /* main */
 
 main{
-    margin-top: 80px;
+    margin-top: 170px;
+    margin-left: 50px ;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
 }
+    /* main-> section aboutme*/
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .status{
+        color:#4ade80;
+        font-family: "JetBrains Mono",monospace ;
+    }
+    main h1 {
+        margin: 0;
+        font-family: "JetBrains Mono",monospace ;
+        font-size: 2.9em;
+    }
+
+    .paragraph{
+        color:rgba(255, 255, 255, 0.583);
+        font-family: "Inter", sans-serif;
+        line-height: 1.7;
+        font-size: 1.1em;
+        
+        
+    }
+
+    .skills{
+        display: flex;
+        flex-direction:row ;
+        gap: 20px;
+    }
+    .skills span{
+        color: #4ade80;
+        background-color: #4ade8027;
+        padding: 6px 9px;
+        border: 1px solid #4ade8065;
+        border-radius: 8px;
+    }
+
+
